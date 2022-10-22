@@ -10,7 +10,8 @@ lazy_static! {
         .read(true)
         .write(true)
         .append(true)
-        .open("/tmp/tivalve/add_table.txt").unwrap()));
+        .open("/tidb-deploy/tivalve/add_table.txt").unwrap()));
+        // .open("/tmp/tivalve/add_table.txt").unwrap()));
 }
 
 lazy_static! {
@@ -19,5 +20,5 @@ lazy_static! {
         .read(true)
         .write(true)
         .append(true)
-        .open("/tmp/tivalve/row_event.txt").unwrap()));
+        .open("/tidb-deploy/tivalve/row_event.txt").unwrap()));
 }
